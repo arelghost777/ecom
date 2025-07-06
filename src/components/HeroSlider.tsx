@@ -132,30 +132,30 @@ export default function HeroSlider() {
                                     }}
                                 >
                                     <motion.h1 
-                                        variants={textVariants}
+                                        variants={{textVariants}}
                                         className="text-4xl md:text-5xl lg:text-6xl font-bold uppercase tracking-tight"
                                     >
                                         {slide.title}
                                     </motion.h1>
                                     
                                     <motion.p 
-                                        variants={textVariants}
+                                        variants={{textVariants}}
                                         className="text-lg md:text-xl text-gray-200"
                                     >
                                         {slide.description}
                                     </motion.p>
                                     
                                     <motion.p 
-                                        variants={textVariants}
+                                        variants={{textVariants}}
                                         className="text-2xl md:text-3xl font-bold text-yellow-400"
                                     >
                                         {slide.price}
                                     </motion.p>
                                     
-                                    <motion.div variants={textVariants}>
+                                    <motion.div variants={{textVariants}}>
                                         <Link href={slide.link}>
                                             <motion.button 
-                                                variants={buttonVariants}
+                                                variants={{buttonVariants}}
                                                 whileHover="hover"
                                                 whileTap="tap"
                                                 className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-lg font-medium"
@@ -171,7 +171,7 @@ export default function HeroSlider() {
                                     className="order-first md:w-1/2 flex justify-center"
                                     initial="hidden"
                                     animate="visible"
-                                    variants={imageVariants}
+                                    variants={{imageVariants}}
                                 >
                                     <motion.div
                                         animate={{
