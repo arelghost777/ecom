@@ -160,7 +160,7 @@ export default function Navbar() {
                         <Link href="/accessories/charging">
                             <div className="text-lg font-medium mb-2">Stations de charge</div>
                             <p className="text-sm text-center text-muted-foreground">
-                              Chargez jusqu'à 2 manettes
+                              Chargez jusqu&apos;à 2 manettes
                             </p>
                         </Link>
                           </NavigationMenuLink>

@@ -113,7 +113,7 @@ export default function Footer() {
                 href="/newsletter" 
                 className="inline-block mt-2 text-yellow-400 hover:underline text-sm"
               >
-                S'abonner →
+                S&apos;abonner →
               </Link>
             </div>
           </div>

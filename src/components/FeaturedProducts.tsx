@@ -1,7 +1,6 @@
 import Link from "next/link";
 import { Separator } from "./ui/separator";
 import Image from "next/image";
-import { Button } from "./ui/button";
 import Addtocat from "./Addtocat";
 
 export default function FeaturedProducts(){

@@ -34,7 +34,7 @@ export default function Newsletter() {
                 className="bg-transparent text-white border-white hover:bg-white hover:text-blue-900"
                 onClick={() => setIsSubscribed(false)}
               >
-                S'abonner à nouveau
+                S&apos;abonner à nouveau
               </Button>
             </div>
           ) : (
@@ -86,10 +86,10 @@ export default function Newsletter() {
                     type="submit" 
                     className="w-full h-12 bg-yellow-400 hover:bg-yellow-300 text-blue-900 font-bold text-lg"
                   >
-                    S'abonner
+                    S&apos;abonner
                   </Button>
                   <p className="text-xs text-white/70">
-                    En vous abonnant, vous acceptez nos conditions d'utilisation.
+                    En vous abonnant, vous acceptez nos conditions d&apos;utilisation.
                     <br />Désabonnement possible à tout moment.
                   </p>
                 </form>
