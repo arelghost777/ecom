@@ -9,12 +9,7 @@ export default function Home() {
   return (
     <>
       <Navbar/>
-      <HeroSlider/>
-      <Category/>
-      <BestSellers/>
-      <WhyChooseUs/>
-      <Newsletter/>
-      <Footer/>
+
     </>
   );
 }
