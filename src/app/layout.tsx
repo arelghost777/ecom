@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Buy your PS5 online",
+  title: "GHOTIK STORE",
   description: "PS5 online shopping",
 };
 
